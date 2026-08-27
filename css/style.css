@@ -134,8 +134,8 @@ table{ border-collapse:collapse; width:100%; }
   opacity:0; visibility:hidden; pointer-events:none;
   transition:opacity .15s ease, transform .15s ease;
 }
-.nav-item:hover .nav-dropdown,
-.nav-item:focus-within .nav-dropdown{
+.main-nav:hover .nav-dropdown,
+.main-nav:focus-within .nav-dropdown{
   opacity:1; visibility:visible; pointer-events:auto;
 }
 .nav-dropdown-inner{
